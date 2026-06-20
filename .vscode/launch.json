@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: rag_pipeline",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/rag_pipeline.py",
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}/venv/Scripts/python.exe",
+            "args": ["mi_documento.pdf", "--reindexar"],
+            "justMyCode": true
+        }
+    ]
+}
